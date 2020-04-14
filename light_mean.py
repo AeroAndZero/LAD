@@ -4,6 +4,7 @@ import math
 
 img = cv2.imread("images/5.jpg")
 img = cv2.resize(img,(500,500))
+cv2.imshow("Original",img)
 copyImg = np.copy(img)
 img = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 
